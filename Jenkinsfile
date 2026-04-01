@@ -1,1 +1,17 @@
+pipeline {
+agent any
+        stages {
+           stage('demo linux command') {
+              steps {
+                sh '''
+                  pwd
+                  whoami
+                  uname -a
+                '''
+              }
+            }
+          }
+}
+
+
 
