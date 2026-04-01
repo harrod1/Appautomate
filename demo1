@@ -1,5 +1,5 @@
 pipeline {
-agent any
+agen any
         stages {
            stage('demo linux command') {
               steps {
