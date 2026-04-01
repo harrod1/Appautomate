@@ -8,10 +8,9 @@ agen any
                   whoami
                   uname -a
                 '''
-
+              }
             }
           }
-        }
 }
 
 
